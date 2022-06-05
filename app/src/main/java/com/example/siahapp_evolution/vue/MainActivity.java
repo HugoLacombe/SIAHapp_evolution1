@@ -1,8 +1,10 @@
-package com.example.siahapp_evolution;
+package com.example.siahapp_evolution.vue;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.siahapp_evolution.R;
 
 public class MainActivity extends AppCompatActivity {
 
