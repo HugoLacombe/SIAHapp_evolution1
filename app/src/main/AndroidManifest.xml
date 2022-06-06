@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SIAHapp_evolution">
         <activity
+            android:name=".vue.inscription"
+            android:exported="false" />
+        <activity
             android:name=".vue.MainActivity"
             android:exported="true">
             <intent-filter>

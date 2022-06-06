@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E4151515"
+    android:background="#E4101010"
     tools:context=".vue.MainActivity">
 
     <TextView
@@ -26,7 +26,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/logo"
         android:layout_width="340dp"
         android:layout_height="324dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +38,7 @@
         app:srcCompat="@drawable/siah_logo3" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textco1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1 ère connexion ? "
@@ -51,7 +51,7 @@
         app:layout_constraintVertical_bias="0.977" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/co1"
         android:layout_width="155dp"
         android:layout_height="36dp"
         android:alpha="0"
