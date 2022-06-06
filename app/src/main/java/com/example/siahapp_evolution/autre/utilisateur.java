@@ -3,15 +3,15 @@ package com.example.siahapp_evolution.autre;
 public class utilisateur {
     String prenom;
     String nom;
-    float taille;
-    float poids;
-    int age;
-    String sexe;
+    Float taille;
+    Float poids;
+    Integer age;
+    Integer sexe; // 0 femme 1 homme
     String identifiant;
     String mdp;
 
 
-    public utilisateur(String prenom, String nom, float taille, float poids, int age, String sexe) {
+    public utilisateur(String prenom, String nom, Float taille, Float poids, Integer age, Integer sexe) {
         this.prenom = prenom;
         this.nom = nom;
         this.taille = taille;
